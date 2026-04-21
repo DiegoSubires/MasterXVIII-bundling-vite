@@ -1,0 +1,14 @@
+// src/reset.scss
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #fcf8f1; // Reutilizando tu color de fondo
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

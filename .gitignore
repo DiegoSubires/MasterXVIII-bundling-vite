@@ -1,0 +1,14 @@
+node_modules
+dist
+dist-ssr
+*.local
+
+# Archivos de reporte y compresión
+bundle-report.html
+*.gz
+*.br
+
+# Editor
+.vscode
+.idea
+.DS_Store
