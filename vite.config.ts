@@ -16,7 +16,7 @@ export default defineConfig({
     react(),
     checker({ typescript: true }),
     viteCompression({ algorithm: "gzip", ext: ".gz" }),
-    viteCompression({ algorithm: "brotliCompress", ext: ".br" }),
+    viteCompression({ algorithm: "brotliCompress", ext: ".br", threshold: 0 }),
     visualizer({
       open: true,
       filename: "bundle-report.html",
